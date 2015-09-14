@@ -1,0 +1,3 @@
+function getEntity(id){
+
+}

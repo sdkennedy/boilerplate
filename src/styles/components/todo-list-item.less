@@ -1,0 +1,16 @@
+.todo-list-item{
+    margin-top:10px;
+    border: solid 1px rgba(0,0,0,0.5);
+    padding: 5px;
+    display: flex;
+    & > .value{
+        flex-grow: 1;
+        & > * {
+            vertical-align: middle;
+        }
+        input[type=checkbox]{
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}

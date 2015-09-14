@@ -1,0 +1,2 @@
+var Bacon = require("baconjs");
+
